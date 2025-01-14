@@ -1,0 +1,34 @@
+
+.story-main h1{
+    /* width: 844px; */
+    height: 60px;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.story-main p{
+    text-align: center;
+    
+}
+.story-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    background-color: #A9CB664D;
+    height: 268px;
+}
+.story-btn{
+    background-color: #000000;
+    color: #fff;
+    width: 180px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+}

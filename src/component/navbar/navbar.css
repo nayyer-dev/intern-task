@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A9CB664D;
+}
+.nav-links {
+    display: flex;
+    padding: 20px 0px;
+}
+.nav-links li{
+    color: #000000;
+    list-style: none;
+    margin: 0 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: poppins;
+}
+
+.nav-img{
+    width: 110px;
+    height: 110px;
+}
+
