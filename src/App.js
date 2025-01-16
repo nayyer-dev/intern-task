@@ -17,7 +17,7 @@ function App() {
       <Story />
       <Features />
       <Success />
-      {/* <Know /> */}
+      <Know />
       <Footer />
     </div>
   );
