@@ -1,0 +1,30 @@
+
+.success-main{
+    height: 376px;
+    width: 645px;
+    background-color: #A9CB664D;
+    margin-top: 50px;
+}
+.success-heading{
+    color: #7E9949;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    /* padding: 40px 100px; */
+    margin-left: 100px;
+}
+.success-heading span{
+    font-weight: 400;
+    color: #000000;
+}
+.success-descrip{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19.5px;
+    color: #6F6F6F;
+    width: 421px;
+    height: 140px;
+    margin-left: 100px;
+}
+
+
