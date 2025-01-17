@@ -2,14 +2,14 @@
 .success-main{
     height: 376px;
     width: 645px;
-    background-color: #A9CB664D;
+    background-color: var(--secondary);
     margin-top: 50px;
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 .success-heading{
-    color: #7E9949;
+    color: var(--primary);
     font-size: 40px;
     line-height: 50px;
     font-weight: 700;
@@ -17,17 +17,19 @@
     margin-left: 100px;
 }
 .success-heading span{
-    font-weight: 400;
-    color: #000000;
+    font-weight: 500;
+    font-size: 40px;
+    color: var(--text-primary)
 }
 .success-descrip{
     font-weight: 300;
     font-size: 13px;
     line-height: 19.5px;
-    color: #6F6F6F;
-    width: 421px;
+    color: var(--text-secondary);
+    width: 70%;
     height: 140px;
     margin-left: 100px;
+    margin-top: 12px;
 }
 .success-info{
     /* padding: 50px; */

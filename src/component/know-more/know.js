@@ -5,14 +5,15 @@ const Know = () => {
   return (
     <div className='know-box'>
     <div className='know-main'>
-        <h1>Subscribe to know more</h1>
+        <h1 className='know-heading'>Subscribe to know more</h1>
         <div className='know-main2'>
         <input className='know-input' type="email" placeholder='Email Address'/>
-        <button className='know-btn'>Know More</button>
+        <button className='know-btn'>Apply Now</button>
     </div>
     </div>
     
     </div>
+  
   )
 }
 

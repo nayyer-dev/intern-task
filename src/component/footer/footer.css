@@ -1,12 +1,10 @@
 .footer-main{
     width: 100%;
     /* height: 155px; */
-background: linear-gradient(269.04deg, #7E9949 7.36%, #A9CB66 64.98%, #FFFFFF 115.38%);
-border-radius: 20px 20px 0px 0px;
-padding-bottom: 20px;
-padding-top: 20px;
-
-
+    background: linear-gradient(269.04deg, #7E9949 7.36%, #A9CB66 64.98%, #FFFFFF 115.38%);
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .footer-left img{
@@ -19,9 +17,6 @@ padding-top: 20px;
     width: 852px;
     height: 1px;
     background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
-   
-
-
 }
 .footer-center{
     display: flex;
@@ -33,7 +28,7 @@ padding-top: 20px;
 .footer-center select{
     background: none;
     border: none;
-    color: #FFFFFF;
+    color: var(--white);
     font-weight: 300;
     font-size: 13px;
     line-height: 19.5;
@@ -41,7 +36,7 @@ padding-top: 20px;
 .footer-center a{
     background: none;
     text-decoration: none;
-    color: #000000;
+    color: var(--text-primary);
     font-weight: 300;
     font-size: 13px;
 }
@@ -50,17 +45,16 @@ padding-top: 20px;
     justify-content: space-between;
     width: 90%;
     margin: auto;
-   
 }
 .footer-company{
     display: flex;
     flex-direction: column;
-     justify-content: space-between;
+    justify-content: space-between;
 }
 .footer-company h1{
     font-weight: 600;
     font-size: 13px;
-    color: #FFFFFF;
+    color: var(--white);
 }
 .company-terms{
     display: flex;
@@ -71,7 +65,7 @@ padding-top: 20px;
     text-decoration: none;
     font-weight: 300;
     font-size: 13px;
-    color: #FFFFFF;
+    color: var(--white);
 }
 .footer-right{
     text-align: right;

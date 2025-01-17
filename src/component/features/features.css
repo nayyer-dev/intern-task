@@ -1,27 +1,31 @@
-
-.features-main h1{
-    /* width: 844px; */
-    height: 60px;
-    font-weight: 400;
-    font-size: 50px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 20px;
-    color: #7E9949;
-}
-.features-main p{
-    text-align: center;
-    
-}
 .features-main{
     display: flex;
     flex-direction: column;
     align-items: center; 
     justify-content: center;
+    height: 268px;
+    /* background-color: red; */
+}
+.features-heading{
+    /* width: 844px; */
+    height: 60px;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+}
+.features-discrip{
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19.5px;
+    color: var(--text-primary)
+    
 }
 .features-btn{
-    background-color: #000000;
-    color: #fff;
+    background-color: var(--text-primary);
+    color: var(--white);
     width: 180px;
     height: 45px;
     font-weight: 700;
