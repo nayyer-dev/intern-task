@@ -10,7 +10,6 @@
 }
 .know-heading{
     height: 60px;
-    width: 844px;
     color: var(--btn-primary);
     font-weight: 400;
     font-size: 45px;
@@ -30,6 +29,7 @@
     width: 380px;
     border-radius: 10px;
     border: 1px solid #000000;
+    padding: 4px 12px;
 }
 /* input[type="email"]::placeholder {
     color: var(--text-secondary);

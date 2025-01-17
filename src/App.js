@@ -11,11 +11,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Hero /> */}
-      {/* <Story /> */}
-      {/* <Features /> */}
-      {/* <Success /> */}
-      {/* <Know /> */}
+      <Hero />
+      <Story />
+      <Features />
+      <Success />
+      <Know />
       <Footer />
     </div>
   );

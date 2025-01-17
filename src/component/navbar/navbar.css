@@ -43,6 +43,7 @@
 @media screen and (max-width: 480px) {
 .hamburger {
     display: flex;
+    margin-right: 12px;
 }
 
 .nav-links {

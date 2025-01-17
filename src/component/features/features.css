@@ -34,6 +34,9 @@
 }
 
 @media screen and (max-width: 480px) {
+    .features-main{
+        padding: 0px 20px;
+    }
     .features-heading{
         height: 60px;
         font-weight: 400;
@@ -42,7 +45,7 @@
     }
     .features-discrip{
         font-weight: 300;
-        font-size: 8px;
+        font-size: 10px;
         line-height: 13px;
     }
     .features-btn{
