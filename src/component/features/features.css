@@ -4,7 +4,6 @@
     align-items: center; 
     justify-content: center;
     height: 268px;
-    /* background-color: red; */
 }
 .features-heading{
     /* width: 844px; */
@@ -21,7 +20,6 @@
     font-size: 13px;
     line-height: 19.5px;
     color: var(--text-primary)
-    
 }
 .features-btn{
     background-color: var(--text-primary);
@@ -33,4 +31,27 @@
     border: none;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .features-heading{
+        height: 60px;
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .features-discrip{
+        font-weight: 300;
+        font-size: 8px;
+        line-height: 13px;
+    }
+    .features-btn{
+        width: 90px;
+        height: 20px;
+        font-weight: 700;
+        font-size: 8px;
+        margin-left: 20px;
+        border-radius: 5px;
+    }
+
 }

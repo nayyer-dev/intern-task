@@ -31,11 +31,11 @@
     border-radius: 10px;
     border: 1px solid #000000;
 }
-input[type="email"]::placeholder {
+/* input[type="email"]::placeholder {
     color: var(--text-secondary);
     font-size: 16px;
     padding: 20px;
-}
+} */
 .know-btn{
     background-color: var(--text-primary);
     color: var(--white);
@@ -47,4 +47,34 @@ input[type="email"]::placeholder {
     border-radius: 10px;
     /* margin-top: 10px; */
     margin-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .know-main{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .know-heading{
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 0px;
+    }
+    
+    .know-input{
+        height: 25px;
+        width: 180px;
+        border-radius: 5px;
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+    .know-btn{
+        width: 90px;
+        height: 25px;
+        font-size: 10px;
+        border-radius: 5px;
+        
+    }
+    .know-main2{
+        flex-direction: column;
+    }
 }

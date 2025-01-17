@@ -3,7 +3,7 @@
     height: 376px;
     width: 645px;
     background-color: var(--secondary);
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     width: 100%;
     justify-content: space-between;
